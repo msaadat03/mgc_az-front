@@ -895,6 +895,27 @@ header.header-mobile.header-light #menu-btn {
 
 /* ================================================== */
 
+.square-holder {
+  padding:30px;
+  border: 1px solid #cecece;
+  align-items: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:20px;
+  background-color:#f1f1f1;
+  min-height:200px
+}
+
+.square-holder img {
+  max-width:100%;
+  transition: all 0.3s;
+}
+
+.square-holder:hover img{
+  filter:none;
+}
+
 .jarallax-img{
     width: 100% !important;
     height: 100% !important;
